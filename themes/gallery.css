@@ -1,0 +1,16 @@
+.galleryThumb {
+	width: 220px;
+	height: 290px;
+	padding: 5px;
+	margin: 0 5px 5px 5px;
+	background: #E0E0E0;
+	color: #000;
+	text-align: center;
+	border: 1px solid #a4a4a4;
+	float: left;
+}
+
+.cursor {
+	cursor: pointer;
+	_cursor: hand;
+}

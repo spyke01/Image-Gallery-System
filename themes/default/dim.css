@@ -1,0 +1,319 @@
+/*==========================================================
+// Dimensions for SSForum Stylesheet
+//
+// Column Names Naming Convention
+// example: row1 on the main page
+// name: MR1Column1
+// explanation: M(ain Page) R(ow)1 Column1
+==========================================================*/
+title1 {
+	text-align: left;
+}
+/*==============================
+	Layout 
+==============================*/
+
+.lastvisit {
+	width: 630px;
+}
+
+.lastvisitwidth {
+	width: 630px;
+}
+
+/*============================================
+// Border style dimensions
+============================================*/
+
+.forumborder {	 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 630px;
+}
+
+/*join.php*/
+.tableBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 630px;	
+}
+
+/*login.php*/
+.LForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 300px;	
+}
+
+/*memberlist.php*/
+.MLForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 628px;	
+}
+
+/*profile.php*/
+.PChangeAvatarForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 628px;	
+}
+
+.PForumWidth { 
+	padding: 0; 
+	width: 630px;	
+}
+
+.PForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 628px;	
+}
+
+.PForumColumn1Border, .PForumColumn2Border { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 313px;	
+}
+
+.PChangeInfoForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 628px;	
+}
+
+/*footer.php*/
+#footer-leftcol {
+	width: 50%;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 0px 2px 4px;
+	float: left;
+	text-align: left;
+}
+
+#footer-rightcol {
+	width: 49%;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 4px 2px 0;
+	text-align: right;
+	float: right;
+}
+
+/*============================================
+// Basic style dimensions
+============================================*/
+.title {
+	border: 0;
+	padding: 5px;
+	text-align: left;	
+}
+
+.title1 { 
+	height:27px; 
+	line-height:27px;
+	border-top:1px solid #656B78;
+	border-right:0px none; 
+	border-bottom:1px solid #656B78;
+	border-left:0px none;  
+	padding-left:5px; 
+	padding-right:5px
+	text-align: left;	
+}
+
+.row1 {
+	padding-top:2px; 
+	padding-right:3px;
+	padding-bottom:2px;
+	padding-left:3px; 
+	text-align: left;
+}
+
+.row2 {
+	padding-top:2px; 
+	padding-right:3px;
+	padding-bottom:2px;
+	padding-left:3px; 
+	text-align: left;
+}
+
+.title2 {
+	text-align: left;	
+}
+
+.wo { width:		1px; }
+.wa { width:		100%; }
+.al { text-align:	left; }
+.ar { text-align:	right; }
+.ac { text-align:	center; }
+.vb { vertical-align:	bottom; }
+.vt { vertical-align:	top; }
+.vm { vertical-align:	middle; }
+.nw { white-space: 	nowrap; }
+.fb { font-weight:	bold; }
+
+.center {
+	margin: 0px auto;
+}
+
+/*============================================
+// Main page column dimensions
+============================================*/
+th.MPT2Column1, td.MPR1Column1 {
+	/*width: 34px;*/
+	padding: 1px;
+	text-align: center;
+}
+
+th.MPT2Column2, td.MPR1Column2 {
+	/*width: 346px;*/
+	padding: 1px;
+	text-align: left;
+}
+
+th.MPT2Column3, td.MPR1Column3 {
+	width: 40px;
+	padding: 1px;
+	text-align: center; 
+}
+
+th.MPT2Column4, td.MPR1Column4 {
+	width: 40px;
+	padding: 1px;
+	text-align: center;
+}
+
+th.MPT2Column5, td.MPR1Column5 {
+	width: 140px;
+	padding: 1px;
+	text-align: left;
+}
+
+/*============================================
+// Memberlist column dimensions
+============================================*/
+.MLT2Column1, .MLR1Column1 {
+	width: 200px;
+	text-align: left;
+}
+
+.MLT2Column2, .MLR1Column2 {
+	width: 200px;
+	text-align: left;
+}
+
+.MLT2Column3, .MLR1Column3 {
+	width: 198px;
+	text-align: left; 
+}
+
+.MLT2Column4, .MLR1Column4 {
+	width: 198px;
+	text-align: left;
+}
+
+/*============================================
+// Profile Page column dimensions
+============================================*/
+.PVPT1 {
+	text-align: left;	
+}
+
+.PForumWidthColumn1, .PForumWidthColumn2 { 
+	width: 50%;	
+	text-align: left;
+}
+
+.PVPT2Column1 {
+	width: 30%;
+	text-align: left;
+	padding: 2px 4px;
+}
+
+.PVPR1Column1 {
+	width: 70%;
+	text-align: left;
+	padding: 2px 4px;
+}
+
+.PChangeInfoT1 {
+	text-align: left;	
+}
+
+.PChangeInfoT2Column1 {
+	width: 250px;
+	text-align: left;
+	padding: 2px;
+}
+
+.PChangeInfoT2Notification {
+	width: 100%;
+	text-align: center;
+	padding: 2px;
+}
+
+.PChangeInfoT2divider {
+	width: 100%;
+	display: none;
+	padding: 0px;
+	height: 2px;
+}
+
+.PChangeInfoR1Column1 {
+	width: 150px;
+	text-align: left;
+	padding: 2px;
+}
+
+/*============================================
+// Search Page column dimensions
+============================================*/
+.SResultsT1 {
+	text-align: left;	
+}
+
+.SResultsT2Column1, .SResultsR1Column1 {
+	width: 34px;
+	text-align: center;
+}
+
+.SResultsT2Column2, .SResultsR1Column2 {
+	width: 34px;
+	text-align: center;
+}
+
+.SResultsT2Column3, .SResultsR1Column3 {
+	width: 272px;
+	text-align: left; 
+}
+
+.SResultsT2Column4, .SResultsR1Column4 {
+	width: 40px;
+	text-align: center;
+}
+
+.SResultsT2Column5, .SResultsR1Column5 {
+	width: 40px;
+	text-align: center;
+}
+
+.SResultsT2Column6, .SResultsR1Column6 {
+	width: 40px;
+	text-align: center;
+}
+
+.SResultsT2Column7, .SResultsR1Column7 {
+	width: 140px;
+	text-align: left;
+}
+
+.SR1Column1 {
+	width: 32%;
+	text-align: center;
+}
+
+.SR1Column2 {
+	width: 68%;
+	text-align: center;
+}
